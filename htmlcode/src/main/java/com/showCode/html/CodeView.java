@@ -25,6 +25,7 @@
  * setEncode() set the encode
  * fillColor() fill color
  * setTheme() check the CodeViewTheme file to find out themes we have
+ * (thanks for the Highlight project)
  * if pictures in the html file are using url to locate:
  * setBaseUrl() and setPreUrl() would work.
  *
