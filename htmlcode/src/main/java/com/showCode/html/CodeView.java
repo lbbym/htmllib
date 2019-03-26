@@ -1,3 +1,39 @@
+/*
+ * import the module in this way:
+ * import com.showCode.html.CodeView;
+ * import com.showCode.html.CodeViewTheme;
+ * And use following interface to interact with the CodeView:
+ *
+ * This project also contains a very simple demo.
+ * so view the code in the app module to get started.
+ *
+ * in the XML: You can use CodeView instead of WebView.
+ * and in this way, the code in the web would be displayed
+ * in a much better way.
+ *
+ * in the Java file:
+ * use displayCode() if there is only code in the html file.
+ * use displayCodeCss() or displayCodeClass() if there is more than code in html file,
+ * and it could select the code piece to show it in a proper way,
+ * and also show the rest of the html in the normal way.
+ * the difference between these two function:
+ * use css or class to do the select job.
+ *
+ * PS: use the displayCode() to show the html code
+ *
+ * some attributes you may want to set:
+ * setEncode() set the encode
+ * fillColor() fill color
+ * setTheme() check the CodeViewTheme file to find out themes we have
+ * if pictures in the html file are using url to locate:
+ * setBaseUrl() and setPreUrl() would work.
+ *
+ *
+ * And thanks GNU Project for the Highlight project
+ * (which has been used in this project)
+ */
+
+
 package com.showCode.html;
 
 
